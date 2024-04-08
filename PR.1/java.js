@@ -2,16 +2,16 @@ let output = document.getElementById("output");
 var num1, num2, opr;
 
 function getNum(num) {
-  output.value += num;
+  output.value += num
 }
 
 function clearOutput() {
-  output.value = null;
+  output.value = null
 }
 
 function getOpr(input) {
   opr = input;
-  num1 = parseInt(output.value);
+  num1 = parseInt(output.value)
   clearOutput();
 }
 
